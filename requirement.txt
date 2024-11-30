@@ -1,0 +1,57 @@
+alphasAi Healthcare System
+This project consists of two main modules:
+
+Chatbot for Healthcare Queries
+Skin Disease Classification System
+Requirements
+Libraries
+The following Python libraries are required for running the project:
+
+nltk (Natural Language Toolkit for text processing)
+numpy (Numerical operations)
+tensorflow (For loading and using pre-trained models)
+pickle (For loading serialized data)
+tkinter (For building GUI interface)
+PIL (For image processing and display)
+You can install the necessary libraries using the following pip commands:
+
+Copy code
+pip install nltk numpy tensorflow pillow scikit-learn
+Files
+Ensure the following files are available in the appropriate directory:
+
+Chatbot:
+
+model.h5 (Pre-trained model for chatbot)
+words.pkl (List of words used for chatbot's predictions)
+classes.pkl (List of intents or response categories)
+intents.json (Contains the intents and responses for chatbot)
+Skin Disease Classification:
+
+skin_disease_model.h5 (Pre-trained model for skin disease classification)
+logo.jpg (Logo image for the application interface)
+Main Functionalities
+Chatbot for Healthcare Queries:
+The chatbot processes text input and predicts the intent using the chatbot_model.
+Responds based on the intent prediction using the responses defined in intents.json.
+The chatbot uses a GUI to interact with the user.
+Skin Disease Classification:
+Upload an image of a skin condition, and the model predicts the disease using the skin_model.
+The predicted disease and the confidence level are displayed in the GUI.
+How to Use
+Running the Program:
+
+Make sure the required libraries are installed.
+Place all the necessary files (models and data) in the correct paths as mentioned above.
+Execute the program and the GUI will launch.
+Chatbot Functionality:
+
+Enter a healthcare-related query into the text input field.
+Click Send to get a response from the chatbot.
+Skin Disease Classification:
+
+Click the Upload Image button to choose an image of a skin condition.
+The model will classify the skin disease and show the predicted result along with confidence.
+Clearing Chat Window:
+
+To clear the chat window, click the Clear button.
