@@ -1,0 +1,153 @@
+
+{
+  "intents": [
+    {
+      "tag": "BA-cellulitis",
+      "patterns": ["I have cellulitis", "What should I do for cellulitis?", "Cellulitis treatment"],
+      "responses": ["Cellulitis is a bacterial skin infection. Apply warm compresses to the affected area and take antibiotics as prescribed by your doctor."]
+    },
+    {
+      "tag": "BA-impetigo",
+      "patterns": ["I have impetigo", "How do I treat impetigo?", "Impétigo advice"],
+      "responses": ["Impetigo is a highly contagious bacterial infection. Wash the affected area with soap and water and apply antibiotic ointment as directed by your healthcare provider."]
+    },
+    {
+      "tag": "FU-athlete-foot",
+      "patterns": ["I have athlete's foot", "What should I do for athlete's foot?", "Athlete's foot first aid"],
+      "responses": ["Athlete's foot is a fungal infection. Keep your feet dry, use antifungal cream, and wear breathable socks and shoes."]
+    },
+    {
+      "tag": "FU-nail-fungus",
+      "patterns": ["I have nail fungus", "How do I treat nail fungus?", "Nail fungus advice"],
+      "responses": ["Nail fungus can be treated with antifungal medication. Soak your nails in warm water and use topical antifungal solutions."]
+    },
+    {
+      "tag": "FU-ringworm",
+      "patterns": ["I have ringworm", "What should I do for ringworm?", "Ringworm treatment"],
+      "responses": ["Ringworm is a fungal infection. Use antifungal creams and keep the affected area clean and dry."]
+    },
+    {
+      "tag": "PA-cutaneous-larva-migrans",
+      "patterns": ["I have cutaneous larva migrans", "How to treat cutaneous larva migrans?", "Larva migrans first aid"],
+      "responses": ["This is caused by hookworm larvae. Apply an anti-parasitic cream and consult a healthcare provider for further treatment."]
+    },
+    {
+      "tag": "VI-chickenpox",
+      "patterns": ["I have chickenpox", "What should I do for chickenpox?", "Chickenpox advice"],
+      "responses": ["Chickenpox is a viral infection. Keep the skin clean, use anti-itch cream, and consult a doctor if necessary."]
+    },
+    {
+      "tag": "VI-shingles",
+      "patterns": ["I have shingles", "How do I treat shingles?", "Shingles first aid"],
+      "responses": ["Shingles is caused by the reactivation of the chickenpox virus. Antiviral medication can help, and keeping the rash clean is essential."]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi! What health-related query do you have?", "Hey! How can I help you?"]   
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Take care"],
+      "responses": ["Goodbye! Stay healthy!", "Take care! Let me know if you have more questions.", "See you soon!"]
+    },
+    {
+      "tag": "symptom_check",
+      "patterns": ["I have a fever", "I'm coughing", "What are the symptoms of flu?", "I have a headache"],
+      "responses": [
+        "You might be experiencing flu-like symptoms. It's best to rest and drink plenty of fluids. If symptoms persist, consult a doctor.",
+        "Fever and cough could indicate a cold or flu. Do you need tips for managing it?",
+        "Headaches can have many causes. Are there any other symptoms you’re experiencing?"
+      ]
+    },
+    {
+      "tag": "skin_diseases",
+      "patterns": [
+        "I have a rash", 
+        "What is eczema?", 
+        "Tell me about acne", 
+        "How do I treat psoriasis?", 
+        "I have hives", 
+        "What is ringworm?", 
+        "How do I treat eczema?", 
+        "What are the symptoms of psoriasis?"
+      ],
+      "responses": [
+        "A rash can be caused by various factors like allergies or infections. Keeping the skin clean and dry can help. Consult a dermatologist for a proper diagnosis.",
+        "Eczema is a condition that causes dry, itchy skin. It is often triggered by allergens, stress, or environmental factors. Moisturizers and prescribed medications can help manage symptoms.",
+        "Acne occurs when hair follicles become clogged with oil and dead skin cells. Treatment includes keeping the skin clean, using topical treatments, and consulting a dermatologist if needed.",
+        "Psoriasis is a chronic condition where skin cells build up and form scales. Topical treatments, phototherapy, or systemic treatments may be needed.",
+        "Hives are red, itchy welts that may appear after an allergic reaction or stress. Antihistamines can provide relief. If symptoms persist, seek medical advice.",
+        "Ringworm is a fungal infection that causes a ring-shaped rash. Antifungal creams and medications can help treat it. Keep the affected area clean and dry.",
+        "For eczema, moisturize regularly and avoid triggers. Prescribed creams or ointments can help manage flare-ups.",
+        "Psoriasis symptoms include red patches of skin covered with thick, silvery scales, often found on the elbows, knees, or scalp. Treatment options include topical treatments, light therapy, and systemic medications."
+      ]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": ["What is diabetes?", "How do I manage diabetes?", "Symptoms of diabetes?", "Can diabetes be cured?"],
+      "responses": [
+        "Diabetes is a condition where the body cannot regulate blood sugar levels. It requires proper management and care.",
+        "Symptoms of diabetes include frequent urination, excessive thirst, and fatigue. Consult a doctor if you suspect it.",
+        "Diabetes management includes a balanced diet, regular exercise, and medications or insulin as prescribed by your doctor.",
+        "Currently, there is no cure for diabetes, but it can be effectively managed with the right lifestyle and medical care."
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": ["Give me some health tips", "How can I stay healthy?", "Tips for boosting immunity"],
+      "responses": [
+        "Eat a balanced diet, exercise regularly, and stay hydrated. These habits can help boost your immunity.",
+        "Wash your hands frequently, get enough sleep, and avoid smoking for better health.",
+        "Regular check-ups and staying active can go a long way in maintaining good health."
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["I want to book an appointment", "Schedule a doctor visit", "Can I see a doctor?"],
+      "responses": [
+        "Sure! Let me help you schedule an appointment. Please provide your preferred date and time.",
+        "I can assist with booking a doctor. Could you tell me the type of specialist you need to visit?",
+        "To schedule an appointment, please provide more details, like the preferred clinic or doctor."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["I'm feeling stressed", "How do I deal with anxiety?", "Tips for better mental health", "I feel overwhelmed"],
+      "responses": [
+        "It's important to take breaks, practice deep breathing, and consider talking to a mental health professional.",
+        "Try relaxation techniques like meditation or yoga. Talking to someone you trust can also help.",
+        "If stress persists, consult a mental health expert. Remember, your mental health is just as important as your physical health."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": ["What foods are good for health?", "Tell me about a balanced diet", "What should I eat for energy?", "I want to lose weight, what should I eat?"],
+      "responses": [
+        "Include fruits, vegetables, whole grains, and lean proteins in your diet. Avoid excessive sugar and processed foods.",
+        "For sustained energy, eat complex carbs like oats and brown rice, along with nuts and fresh fruits.",
+        "A balanced diet includes the right proportions of carbs, proteins, fats, vitamins, and minerals.",
+        "For weight loss, focus on portion control and choose whole foods like vegetables, fruits, and lean proteins."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["What should I do in an emergency?", "How to handle a medical emergency?", "I need urgent help", "What to do if someone is choking?"],
+      "responses": [
+        "In an emergency, call your local emergency number immediately. Stay calm and provide clear information.",
+        "For urgent medical situations, seek immediate help from the nearest hospital or clinic.",
+        "If someone is unconscious or having difficulty breathing, call an ambulance right away.",
+        "In case of choking, encourage the person to cough and try to administer the Heimlich maneuver if needed. Call emergency services."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": ["What are good exercises?", "How much should I exercise?", "Best workouts for beginners?", "How do I stay active during the winter?"],
+      "responses": [
+        "A mix of cardio, strength training, and stretching is great. Start with 30 minutes a day, 5 times a week.",
+        "Walking, jogging, yoga, and bodyweight exercises are good for beginners. Start slowly and increase intensity as you get fitter.",
+        "Try indoor activities like yoga, resistance bands, or even dancing to stay active in winter."
+      ]
+    }
+  ]
+}
