@@ -1,0 +1,5 @@
+tensorflow>=2.0
+nltk
+numpy
+scikit-learn
+Pillow
